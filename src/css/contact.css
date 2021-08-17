@@ -1,0 +1,149 @@
+.contact-1 h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #c2c2c2;
+  text-align: center;
+  margin: 1rem 0;
+}
+.contact-1 p {
+  text-align: justify;
+  color: #00af91;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 8rem;
+}
+@media (max-width: 550px) {
+  .contact-1 p {
+    margin: 0 2rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-1 p {
+    margin: 0 2rem;
+    font-size: 18px;
+  }
+}
+
+.contact-div {
+  height: 80vh;
+  display: block;
+  margin-bottom: 4rem;
+}
+.contact-div .row {
+  margin: 2rem 8rem;
+}
+
+.first-part {
+  background-color: #fff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.first-part h1 {
+  color: black;
+  text-align: left;
+  padding: 2rem 4rem;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.first-part input,
+textarea {
+  margin: 0.5rem 0;
+  margin-left: 6rem;
+  width: 70%;
+  padding: 0.2rem 0.5rem;
+  font-size: 20px;
+}
+
+.first-part textarea {
+  height: 200px;
+}
+
+.second-part {
+  background-color: #00af91;
+}
+
+.second-part h1 {
+  color: white !important;
+  font-size: 25px;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.second-part h3 {
+  color: white;
+  padding: 0 0 0 2rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.row {
+  margin-bottom: 5rem;
+}
+
+.row span {
+  color: #ecebeb;
+  font-weight: 400;
+  text-align: justify;
+}
+.space {
+  margin-left: 7rem;
+}
+
+@media (max-width: 900px) {
+  .contact-div .row {
+    margin: 0 2rem;
+    font-size: 18px;
+  }
+
+  .space {
+    margin-left: 0rem;
+  }
+}
+
+button {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid transparent;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: black;
+  padding: 10px;
+  outline: none;
+  border-radius: 6px;
+  margin-left: 6.2rem;
+}
+button:hover {
+  color: #fff;
+  background-color: #00af91;
+}
+
+.tp {
+  height: 30vh;
+}
+
+.content {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .first-part h1 {
+    padding: 1rem 2rem;
+  }
+
+  .first-part input,
+  textarea {
+    margin-left: 2rem;
+    width: 80%;
+  }
+
+  button {
+    margin-left: 2rem;
+  }
+}

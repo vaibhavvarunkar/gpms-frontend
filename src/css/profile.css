@@ -1,0 +1,13 @@
+.connected-acc .facebook {
+  background-color: rgb(26, 139, 245);
+  color: white;
+  padding: 10px;
+  margin: 2rem 2rem;
+}
+
+.connected-acc .google {
+  background-color: rgb(255, 123, 0);
+  color: white;
+  padding: 10px;
+  margin: 2rem 2rem;
+}
